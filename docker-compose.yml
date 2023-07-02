@@ -1,5 +1,20 @@
 version: '3'
 services:
+  deepspeech:
+    image: deepspeech
+    build:
+      dockerfile: deepspeech.Dockerfile
+    ports:
+      - 0.0.0.0:8080:8080
+    # deploy:
+    # resources:
+    #   reservations:
+    #     devices:
+    #       - driver: nvidia
+    #         count: 1
+    #         capabilities: [gpu]
+    # volumes:
+    #   - [host-model-path]:/opt/deepspeech
   mimic3:
     image: mimic3
     build:
