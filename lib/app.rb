@@ -2,6 +2,10 @@ require 'dotenv/load'
 require 'sinatra'
 require 'openai'
 
+get '/' do
+  'Cortana'
+end
+
 post '/' do
   client = OpenAI::Client.new(access_token: ENV['OPENAI_ACCESS_TOKEN'])
 
