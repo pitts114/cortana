@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mimic3:
+    image: mimic3
+    build:
+      dockerfile: mimic3.Dockerfile
+    ports:
+      - 59125:59125
+    volumes:
+      - mimic3:/home/mimic3/.local/share/mycroft/mimic3
+volumes:
+    mimic3:
