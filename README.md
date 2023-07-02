@@ -1,6 +1,11 @@
 # Cortana
 ![Cortana from Halo 2](cortana.png)
 
+
+## Deepspeech
+Deepspeech accepts wav files with 16kHz sample rate and 16 bit depth.
+
+
 ## Useful commands
 
 Play audio from response:
