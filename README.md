@@ -1,4 +1,5 @@
 # Cortana
+![Cortana from Halo 2](cortana.png)
 
 ## Useful commands
 
