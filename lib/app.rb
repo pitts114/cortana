@@ -10,7 +10,9 @@ post '/' do
   client = OpenAI::Client.new(access_token: ENV['OPENAI_ACCESS_TOKEN'])
 
   request.body.rewind
-  request_payload = JSON.parse request.body.read
+  wav = JSON.parse request.body.read
+
+
   prompt = request_payload["prompt"] || raise("Request provide a prompt")
 
   response = client.chat(
