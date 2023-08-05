@@ -5,8 +5,8 @@
 - [x] Print ChatGPT prompts
 - [x] Text to speech
 - [x] Speech to text
-- [ ] Speech to Speech
-- [ ] Microphone input to audio output
+- [x] Speech to Speech
+- [x] Microphone input to audio output
 - [ ] Cortana model?
 - [ ] Cortana voice?
 - [ ] Animations?
